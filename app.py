@@ -9,7 +9,8 @@ CORS(app)
 from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
 
-
+from flask_cors import CORS
+CORS(app)
 
 # Simple training dataset (demo data for ML model)
 X = np.array([
